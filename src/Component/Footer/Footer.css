@@ -1,0 +1,44 @@
+.Footer {
+  background: #f2f2f2;
+}
+
+.Footer .block__inner {
+  margin: auto;
+  text-align: center;
+}
+
+.Footer .flickity-slider img {
+  margin: 0 50px;
+  width: 625px !important;
+  height: 465px !important;
+  opacity: 1;
+}
+
+.flickity-slider img:not(.slick-active) {
+  opacity: 0.7;
+}
+
+.fa-long-arrow-left {
+  left: 25%;
+  z-index: 1;
+  top: 25%;
+  color: black;
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  padding: 17px;
+  border-radius: 10px;
+  background: #f2f2f2;
+}
+.fa-long-arrow-right {
+  right: 23%;
+  z-index: 1;
+  top: 25%;
+  color: black;
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  padding: 17px;
+  border-radius: 10px;
+  background: #f2f2f2;
+}

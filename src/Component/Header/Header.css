@@ -1,0 +1,95 @@
+.Header{
+   position: relative;
+   color: #ffffff;
+   height: 900px;
+}
+.Header .head{
+   display: flex;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin: auto;
+   position: relative;
+   padding: 40px 0;
+}
+
+.Header .head .link{
+   width: 300px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   font-size: 13px;
+   align-items: baseline;
+}
+.Header .head .link a{
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+}
+.Header .head .link .buy_contain{
+   border-radius: 30px;
+   border:2px solid white;
+   padding: 5px 40px;
+   width: 156px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 1s cubic-bezier(0.2,1,0.3,1);
+   transform: translate(0);
+}
+.Header .head .link .buy_contain i{
+  width: 10px;
+  height: 10px;
+  color: #ffffff;
+  display: none; 
+  transition: 1s ease;
+}
+.Header .head .link .buy_contain .buy{
+   transition: 1s ease;
+ }
+
+.Header .buy_contain:hover i{
+   display: inline-block !important;
+   transform: translate(3px);
+}
+
+.Header .back .background{
+   position: fixed;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -2;
+}
+.Header .back::before{
+   content: '';
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(27,29,33,0.8666);
+   z-index: -1;
+}
+
+.Header .hero__inner{
+   text-align: center;
+   max-width: 500px;
+   position: fixed;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: -1;
+   opacity: 1;
+}
+.Header .hero__inner .logo{
+  margin: 30px;
+}
+
+.Header .hero__inner .btn__title{
+   background-image: linear-gradient(120deg,#8e2de2,#4a00e0);
+   padding: 15px 70px;
+   font-size: 17px;
+   margin: 10px;
+   width: 220px;
+   margin: 20px auto;
+   border-radius: 30px;
+}
